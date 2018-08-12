@@ -1,0 +1,24 @@
+{
+  "name": "blog-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexiosdut/blog-with-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexiosdut/blog-with-node.js/issues"
+  },
+  "homepage": "https://github.com/Alexiosdut/blog-with-node.js#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-edge": "^1.0.0",
+    "mongoose": "^5.2.7"
+  }
+}
