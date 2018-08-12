@@ -16,7 +16,7 @@ app.set('views', `${__dirname}/views`);
 app.get('/', (req, res) => {
   res.render('home');
 })
-
+// comment 1, comment 2
 app.get('/posts/new', (req, res) => {
   res.render('create');
 })
